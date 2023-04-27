@@ -1,0 +1,183 @@
+
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    width: 100%;
+}
+
+.pro-img img{
+    width: 240px;
+    height: 240px;
+}
+
+.pro-inf{
+    display: flex;
+    flex-direction: column;
+}
+
+.pro-inf-details{
+    display: flex;
+    flex-direction:column;
+    height:100%;
+    padding: 10px; 
+}
+
+.sale-price form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.btn-price{
+text-decoration: none;
+background-color: rgb(255, 255, 255);
+/* padding: 30px; */
+width: 200px;
+height: 50px;
+display: flex;
+flex-direction: row;
+margin: 7px;
+text-transform:uppercase;
+font-size: 20px;
+color: #022E51;
+border-radius: 5px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+align-items: center;
+justify-content: center;
+border: solid 1px;
+cursor: pointer;
+}
+
+.btn-price:hover{
+    color: blue;
+}
+
+
+.sale-totail{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.frm-sale-totail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-sale{
+    margin-left: 10px;
+    width: 400px;
+}
+
+
+
+
+
+/* ************* input **************** */
+
+label{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+}
+
+input[type=number],.id-text {
+    background-color:#b9e4ff ;
+    border:solid 1px #0173d0;
+    
+}
+
+.inp-readonly{
+    background-color: #d7d7d7;
+    outline: none;
+    cursor:default;
+    border:solid 1px #555555;
+    color: red;
+}
+
+input[type=number]:focus, .id-text:focus{
+    background-color:#ffffff ;
+    border:solid 1px #0173d0;
+}
+input[type="radio"] {
+     appearance:inherit; 
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid #0a0331;
+    height: 1em;
+    width: 1em; 
+}
+input[type="radio"] {
+    border-radius: 50%;
+    border: 1px solid #0a0331;
+    padding: 5px;
+
+}
+
+input[type="radio"]:checked{
+    background: #d4f4ff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+/* ************************************ */
+
+
+
+/* ************* เส้นบรรทัด ************* */
+
+
+hr.hr-double{
+    border-top: 3px double #000000;
+}
+
+hr.hr-dot{
+     border-top: 1px dashed #000000;
+}
+
+/* ************************************ */
+.goto{
+    margin-left: 10px;
+}
+.btn-ss{
+    display:flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+
+.summit{
+    border: solid 1px #00540f;
+    background-color: #00540f;
+    color: #ffffff;
+    border-radius: 7px;
+}
+
+.summit:hover{
+    border: solid 1px #00540f;
+    background-color: #c9ffc7;
+    color: #066317;
+    font-weight: bold;
+}
+
+.summit:active{
+    border: solid 1px #ddf8e2;
+    background-color: #02490f;
+    color: #ffffff;
+    font-weight: bold;
+}

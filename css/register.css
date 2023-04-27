@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+html, body{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(232, 232, 232);
+    font-family: 'Mitr', sans-serif;
+    
+}
+
+img{
+    width: 20%;
+}
+
+.container{
+    background-color: none;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-color:#022E51;
+    color:#fff;
+    width: 60%;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.frm-main{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    height: 650px;
+}
+
+.frm-body{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 550px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+form{
+    width: 98%;
+    height: 100%;
+    /* margin-top:20px; */
+    /* padding: 20px; */
+    /* background-color: aquamarine; */
+    
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    color: #022E51;
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: 'Mitr', sans-serif;
+    outline: none;
+    border: 1px solid gray;
+}
+
+input[type=email]:focus ,input[type=password]:focus, input[type="text"]:focus {
+    background-color: aliceblue;
+    border: 2px solid #022E51;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.btnLogin{
+    transition: ease 0.2s;
+    text-transform: uppercase;
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    background-color: #022E51;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius:10px ;
+}
+
+.btnLogin:hover{
+    background-color: rgb(255, 255, 255);
+    color:#022E51;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: ease 0.2s;
+    width: 120px;
+    height: 60px;
+}
+
+.success{
+    background-color: rgb(229, 175, 175);
+    color: red;
+    border-color: red;
+    border-radius: 10px;
+}
+
+.frm-foot{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}

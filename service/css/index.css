@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+
+
+html body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(232, 232, 232);
+    font-family: 'Mitr', sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+}
+
+.box-1 {
+    
+    width: 180px;
+    height: 180px;
+    /*background: #727272;*/
+    position: relative;
+}
+
+.re-menu {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    margin-bottom: 5px;
+    
+
+}
+.sele{
+    width: 70px;
+    background: #DE0000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    position: absolute;
+    left: 110px;
+    z-index: 0;
+    
+}
+
+.sele p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #e6ff07;
+    display: block;
+    margin: auto;
+}
+
+.re-img-1{
+    display: block;
+    margin: auto;
+}
+
+.heading-re{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu-re{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.contai-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.con{
+    display: flex;
+    flex-direction: row;
+}
+
+.hr-1{
+    width: 76%;
+    border: 0.5px solid #DE0000;
+    background-color: #DE0000;
+}
+
+.hr-2{
+    width: 81%;
+    border: 0.5px solid #DE0000;
+    background-color: #DE0000;
+}
+
+.hr-3{
+    width: 69%;
+    border: 0.5px solid #DE0000;
+    background-color: #DE0000;
+}
+
+
+.hr-4{
+    width: 74%;
+    border: 0.5px solid #DE0000;
+    background-color: #DE0000;
+}
+
+.con-head{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.con-main-1{
+    display: flex;
+    flex-direction: row;
+}

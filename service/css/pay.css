@@ -1,0 +1,104 @@
+.main-pay-header h3{
+    text-align: center;
+}
+
+
+table{
+    width: 100%;
+}
+table th{
+    border-top:solid 1px #6d6d6d;
+    border-bottom:solid 1px #6d6d6d;
+    padding: 10px;
+}
+
+tbody td {
+    border-bottom:dashed 1px #6d6d6d;
+    padding: 15px;
+}
+
+tfoot td {
+    border-bottom:3px double #6d6d6d;
+    padding: 15px;
+}
+
+.pay-order{
+    width: 70%;
+}
+
+.pay-order-foot{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.btn-summit{
+    display: flex;
+    justify-content: right;
+}
+
+.main-pay-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-summit a{
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 10px;
+    border: solid 1px #00540f;
+    background-color: #00540f;
+    color: #ffffff;
+    border-radius: 7px;
+}
+
+.btn-summit a:hover{
+    border: solid 1px #00540f;
+    background-color: #c9ffc7;
+    color: #066317;
+    font-weight: bold;
+}
+
+.btn-summit a:active{
+    border: solid 1px #ddf8e2;
+    background-color: #02490f;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.pay-qrcode{
+    margin-left: 30px;
+    justify-content: right;
+}
+
+
+.pay-qrcode-bg{
+    background-color: #113566;
+    border-radius: 10px;
+    padding: 10px;
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pay-qrcode-body{
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pay-qrcode-body img{
+    width: 310px;
+}
+
+.pay-qrcode-foot{
+    margin-top: 5px;
+    color: #ffffff;
+}
